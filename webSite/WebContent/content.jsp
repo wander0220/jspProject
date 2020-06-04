@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-여기다가 뭘 할까요.. 추천받아연~~
+여기다가 뭘 할까요.. 
 </body>
 </html>
