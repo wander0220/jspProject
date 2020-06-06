@@ -13,7 +13,7 @@
 <body>
 <table width="800" border="2" cellpadding="2" cellspacint="0">
 <tr>
-	<td>
+	<td colspan="2" align="center">
 		<jsp:include page="top.jsp" flush="false"/>
 	</td>
 </tr>
@@ -26,7 +26,7 @@
 	</td>
 </tr>
 <tr>
-	<td>
+	<td colspan="2" align="center">
 		<jsp:include page="bottom.jsp" flush="false"/>
 	</td>
 </tr>
