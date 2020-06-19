@@ -10,39 +10,39 @@
 <meta charset="UTF-8">
 <title>HOMEPAGE</title>
 <style>
-/*
-	table{
-		border: none;
+	body{
+		text-align : center;
+		width: 900px;
 	}
-	td{
-		border: none;
+	header, footer, aside, section {
+		margin: 5px;
+		padding: 10px;
 	}
-*/
+	header{
+		height: 50px;
+		background-color: red;
+	}
+	aside, section{
+		float: left;
+		height: 200px;
+	}
+	section{
+		background-color: green;
+		width: 604px;
+	}
+	aside{
+		background-color: blue;
+		width: 100px;
+	}
+	footer{
+		height: 50px;
+		background-color: yellow;
+		position: relatiev;
+		clear: both;		
+	}
 </style>
 </head>
 <body>
-<!-- 
-<table width="800" border="1" cellpadding="2" cellspacint="0">
-<tr>
-	<td colspan="2" align="center">
-		<jsp:include page="top.jsp" flush="false"/>
-	</td>
-</tr>
-<tr>
-	<td width="200" valign="top">
-		<jsp:include page="left.jsp" flush="false"/>
-	</td>
-	<td width="600" valign="top">
-		<jsp:include page="<%=contentPage %>" flush="false"/>
-	</td>
-</tr>
-<tr>
-	<td colspan="2" align="center">
-		<jsp:include page="bottom.jsp" flush="false"/>
-	</td>
-</tr>
-</table>
- -->
 
 <header>
 	<jsp:include page="top.jsp" flush="false"/>
