@@ -14,7 +14,7 @@
 		text-align : center;
 		width: 900px;
 	}
-	header, footer, aside, section {
+	header, footer, section {
 		margin: 5px;
 		padding: 10px;
 	}
@@ -22,23 +22,19 @@
 		height: 50px;
 		background-color: red;
 	}
-	aside, section{
-		float: left;
-		height: 200px;
-	}
 	section{
+		/*float: left;*/
+		height: 200px;
 		background-color: green;
-		width: 604px;
-	}
-	aside{
-		background-color: blue;
-		width: 100px;
 	}
 	footer{
-		height: 50px;
-		background-color: yellow;
+		height: 40px;
+		background-color: gray;
 		position: relatiev;
 		clear: both;		
+	}
+	.include{
+		text-decoration:none;
 	}
 </style>
 </head>
@@ -47,9 +43,6 @@
 <header>
 	<jsp:include page="top.jsp" flush="false"/>
 </header>
-<aside>
-	<jsp:include page="left.jsp" flush="false"/>
-</aside>
 <section>
 	<jsp:include page="<%=contentPage %>" flush="false"/>
 </section>
