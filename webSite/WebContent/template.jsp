@@ -26,11 +26,9 @@
 		height: 200px; 
 		background-color: green;
 	}
-	footer{
-		height: 40px;
+	.footer{
 		background-color: gray;
-		position: relatiev;
-		clear: both;		
+		margin : 30spx;
 	}
 	.include{
 		text-decoration:none;
@@ -48,8 +46,8 @@
 <footer>
 	<jsp:include page="bottom.jsp" flush="false"/>
 </footer> --%>
-
-<table width="800" frame=void cellpadding="2" cellspacint="0">
+<!-- width="800" -->
+<table  frame=void cellpadding="2" cellspacint="0">
 <tr>
 	<td>
 		<jsp:include page="top.jsp" flush="false"/>
@@ -60,9 +58,9 @@
 		<jsp:include page="<%=contentPage %>" flush="false"/>
 	</td>
 </tr>
-<tr>
+<tr class="footer">
 	<td>
-		<jsp:include page="bottom.jsp" flush="false"/>
+	<hr><jsp:include page="bottom.jsp" flush="false"/>
 	</td>
 </tr>
 </table>

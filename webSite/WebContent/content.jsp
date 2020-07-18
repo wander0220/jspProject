@@ -6,21 +6,22 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
-	img{
-		max-width : 900px
-	}
+	.item img{
+            width: 100%;
+        }
+        /* #carousel-example-generic{
+            width: 50%;
+        } */
+        .carousel-control.left, .carousel-control.right{
+            background-image: none;
+        }
 </style>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-<!-- <link rel="stylesheet" href="./Resource/css/bootstrap.css"/>
-<script src="./Resource/js/npm.js"></script>
-<script src="./Resource/js/bootstrap.min.js"></script>
-<script src="./Resource/js/bootstrap.js"></script> -->
 
 </head>
 <body>
 
-<div id="carousel-example-generic" class="col-xs-4 col-xs-offset-4 carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="col-xs-12 carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -66,7 +67,6 @@
     <script>
         $('.carousel').carousel({
             interval: 2000
-            , wrap : false //false하면 순환 안함
         })
     </script>
     
