@@ -54,6 +54,20 @@
         </a>
     </div>
     
+    <div class="col-xs-12">
+    	<div class="row">
+    		<div class="col-xs-4">
+    			<h3>관련 기사</h3>
+    		</div>
+    		<div class="col-xs-4">
+    			<h3></h3>
+    		</div>
+    		<div class="col-xs-4">
+    			<h3><a href="board.jsp">게시판</a></h3>
+    		</div>
+    	</div>   
+    </div>
+    
     
     <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
