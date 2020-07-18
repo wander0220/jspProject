@@ -49,7 +49,7 @@
 	<jsp:include page="bottom.jsp" flush="false"/>
 </footer> --%>
 
-<table width="800" border="1" cellpadding="2" cellspacint="0">
+<table width="800" frame=void cellpadding="2" cellspacint="0">
 <tr>
 	<td>
 		<jsp:include page="top.jsp" flush="false"/>
