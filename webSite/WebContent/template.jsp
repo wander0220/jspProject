@@ -10,9 +10,8 @@
 <meta charset="UTF-8">
 <title>HOMEPAGE</title>
 <style>
-	body{
+	/* body{
 		text-align : center;
-		width: 900px;
 	}
 	header, footer, section {
 		margin: 5px;
@@ -23,8 +22,8 @@
 		background-color: red;
 	}
 	section{
-		/*float: left;*/
-		height: 200px;
+		float: left;
+		height: 200px; 
 		background-color: green;
 	}
 	footer{
@@ -35,12 +34,12 @@
 	}
 	.include{
 		text-decoration:none;
-	}
+	} */
 </style>
 </head>
 <body>
 
-<header>
+<%-- <header>
 	<jsp:include page="top.jsp" flush="false"/>
 </header>
 <section>
@@ -48,7 +47,26 @@
 </section>
 <footer>
 	<jsp:include page="bottom.jsp" flush="false"/>
-</footer>
+</footer> --%>
+
+<table width="800" border="1" cellpadding="2" cellspacint="0">
+<tr>
+	<td>
+		<jsp:include page="top.jsp" flush="false"/>
+	</td>
+</tr>
+<tr>
+	<td>
+		<jsp:include page="<%=contentPage %>" flush="false"/>
+	</td>
+</tr>
+<tr>
+	<td>
+		<jsp:include page="bottom.jsp" flush="false"/>
+	</td>
+</tr>
+</table>
+
 
 </body>
 </html>
