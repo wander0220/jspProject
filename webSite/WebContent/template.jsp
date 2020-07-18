@@ -9,44 +9,15 @@
 <head>
 <meta charset="UTF-8">
 <title>HOMEPAGE</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <style>
-	/* body{
-		text-align : center;
+	body{
+		margin-bottom : 50px;
 	}
-	header, footer, section {
-		margin: 5px;
-		padding: 10px;
-	}
-	header{
-		height: 50px;
-		background-color: red;
-	}
-	section{
-		float: left;
-		height: 200px; 
-		background-color: green;
-	}
-	.footer{
-		background-color: gray;
-		margin : 30spx;
-	}
-	.include{
-		text-decoration:none;
-	} */
 </style>
 </head>
 <body>
-
-<%-- <header>
-	<jsp:include page="top.jsp" flush="false"/>
-</header>
-<section>
-	<jsp:include page="<%=contentPage %>" flush="false"/>
-</section>
-<footer>
-	<jsp:include page="bottom.jsp" flush="false"/>
-</footer> --%>
-<!-- width="800" -->
+<div class="container">
 <table  frame=void cellpadding="2" cellspacint="0">
 <tr>
 	<td>
@@ -64,7 +35,7 @@
 	</td>
 </tr>
 </table>
-
+</div>
 
 </body>
 </html>

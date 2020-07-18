@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <style>
 	.item img{
-            width: 100%;
+            width: 960px;
         }
         /* #carousel-example-generic{
             width: 50%;
@@ -32,17 +32,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="http://ghavpdlwl.blob.core.windows.net/day6/%EC%9B%90%ED%95%84%20(3)(1).jpg" 
-            alt="원필_한페될">
+            <img src="./Resource/img/dolphin01.jpg" alt="돌고래 사진">
             <div class="carousel-caption">
-              한 페이지가 될 수 있게
             </div>
           </div>
           <div class="item">
-            <img src="http://ghavpdlwl.blob.core.windows.net/day6/3_thumb(1).jpg" 
-            alt="달콤한혼돈_영현">
+            <img src="./Resource/img/dolphin02.jpg" alt="돌고래 사진">
             <div class="carousel-caption">
-              서윗 카오스
             </div>
           </div>
         </div>
