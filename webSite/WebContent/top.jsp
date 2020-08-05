@@ -33,9 +33,9 @@
 	<li role="presentation"><a href="species.jsp">돌고래 종류</a></li>
 	<li role="presentation"><a href="organization.jsp">관련 단체</a></li>
 	<li role="presentation"><a href="board.jsp">게시판</a></li>
-<!-- 	<li>
+	<li>
   		<audio autoplay controls> 
   		<source src="./Resource/audio/Swampland.mp3" type="audio/mp3"> 
   		</audio>
-  	</li> -->
+  	</li>
 </ul>
