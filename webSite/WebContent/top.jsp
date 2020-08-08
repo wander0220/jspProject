@@ -19,6 +19,7 @@
    	}
 </style>
 
+<div class="col-xs-12">
 <div class="name">
 	<h2>
 		<a href="main.jsp">
@@ -39,3 +40,4 @@
   		</audio>
   	</li>
 </ul>
+</div>
